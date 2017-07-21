@@ -4,9 +4,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-train = pd.read_csv('train.csv')
-test = pd.read_csv('test.csv')
+path='C:\\Users\Partha Acharjee\Documents\Github\\NY-Taxi-data-exploration\\'
+train = pd.read_csv(path+'train.csv')
+test = pd.read_csv(path+'test.csv')
 
 print("Training Samples: ", train.shape[0])
 print("Testing Samples: ", test.shape[0])
